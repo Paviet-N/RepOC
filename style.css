@@ -871,42 +871,29 @@ nav a
         margin-top: 30px;
     }
     /*****Accommodation*****/
+    
     #blocMostPopular
     {   
+        border-radius: 0px;
+        padding: 20px 0;
         width : 100%;
-        padding: 20px 5px;
-        
     }
     .titlePopularWithIcon
     {
-        width: 95%;
+        width: 90%;
         margin: auto;
     }
-
     #blocInternMostPopular
     {
-        flex-direction: row;
-        width: 95%;
+        width : 90%;
         margin: auto;
-    
     }
     .blocAccommodationMostPopular
     {
-        width: 31%;
+        width: 97%;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
-    .blocImgMostPopular
-    {
-        width: 35%;
-    }
-    .blocTextMostPopular
-    {
-        width: 70%;
-        padding-right: 0;
-        padding-top: 0;
-        padding-bottom: 0;
-        height: 100%;
-    }
-
     #blocMarseille
     {
         width: 100%;
