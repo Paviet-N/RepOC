@@ -1,0 +1,1010 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+a
+{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+ul
+{
+    padding: 0;
+    margin: 0;
+}
+li
+{
+    list-style-type: none;
+}
+html
+{
+    height: 100%;
+    
+}
+body
+{
+    font-family: "Raleway", "Sans serif";
+    position: relative; 
+    padding-bottom: 230px;
+    min-height: 100%;
+    margin: 0;
+}
+main
+{
+max-width: 1440px;
+margin: auto;
+padding : 0 3.5%;
+box-sizing: border-box;
+
+}
+
+
+/************ Header **********/
+
+header
+{
+    max-width: 1440px;
+    height: auto;
+    margin: auto;
+    padding : 0 3.5%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.blocLogo
+{
+    width: 120px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo
+{
+    width: 100px;
+    height: auto;
+}
+nav
+{
+    height: 90px;
+    display: flex;
+    
+}
+nav a
+{
+    height: 89px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navEffectBase
+{
+    border-top: 2px #0065fc solid;
+}
+.colorBase
+{
+    color: #0065fc;
+}
+.navEffect
+{
+    border-top: 2px transparent solid;
+}
+.navEffect:hover
+{
+    border-top: 2px #0065fc solid;
+    color: #0065fc;
+}
+
+
+/*********** Section search **********/
+
+#searchIcon
+{
+    background-color: #f2f2f2;
+    border-radius: 13px 0px 0px 13px;
+    width: 12%; 
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+#searchIcon i
+{
+    transform: scale(1.10);
+}
+
+#searchBar
+{
+    display: flex;
+    width: 500px;
+    height: 49px;
+    border: 1px #f2f2f2 solid;
+    border-radius: 13px;
+    margin-bottom: 35px;
+}
+#searchBar input
+{
+    border: none;
+    width: 55%;
+    padding-left: 20px; 
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+#searchBar input::placeholder
+{
+    color: black;
+    opacity: 1;
+}
+
+#buttonWithoutIcon
+{
+    border: none;
+    border-radius: 0px 13px 13px 0px;
+    width: 33%;
+    height: 49px;
+    background-color: #0065fc;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+#buttonIconSearch
+{
+    border: none;
+    border-radius: 13px;
+    width: 12%;
+    height: 49px;
+    background-color: #0065fc;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+#searchBar button:hover
+{
+    background-color: blue;
+    transition: 0.2s ease-in-out;
+}
+.textButtonResearch
+{
+    font-size: 18px;
+}
+
+/**************Filtres************/
+.titleFilters
+{
+    display: inline;
+    font-size: 110%;
+}
+.filters ul 
+{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 110%;
+    
+}
+.filters ul li 
+{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    font-weight: 700;
+    border: solid 2px #e2e2e2;
+    padding-right: 20px;
+    border-radius: 30px;
+    height: 48px;
+}
+.filters ul li:hover 
+{
+    cursor: pointer;
+    background: #DEEBFF;
+    transition: 0.3s ease-in-out;
+} 
+.filters ul li:hover .iconFilters 
+{
+    background: white;
+    transition: 0.3s ease-in-out;
+}
+  
+.iconFilters 
+{
+    background-color: #DEEBFF;
+    height: 52px;
+    width: 50px;
+    color: #0065fc;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -4px;
+    margin-right: 10px;
+}
+
+/*********Ligne d'info***********/
+#info
+{
+   margin-top: 40px;
+}
+#info p
+{
+    display: inline;
+}
+.infoIcon
+{
+    color: #0065fc;
+    font-size: 12px;
+    padding: 5px 9px 5px 9px;
+    border: solid 1px #D9D9D9;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+
+/***********Section Accommodation*********/
+#Accommodation
+{
+    margin-bottom: 60px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    
+}
+#blocMarseille
+{
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    width: 60%;
+    padding: 20px 40px;
+}
+#blocInternMarseille
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.blocAccommodationMarseille
+{
+    background-color: white;
+    border-radius: 20px;
+    height: 190px;
+    width: 29.5%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
+    padding: 5px 5px;
+}
+.blocAccommodationMarseille:hover
+{
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: ease 0.4s;
+}
+.blocImgMarseille
+{
+    width: 100%;
+    height: calc(100% - 80px);   
+}
+.blocImgMarseille img
+{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+.blocTextMarseille
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 92%;
+    height: 60px;
+    padding: 10px 10px;
+}
+.sizeTitleBlocTextMarseille
+{
+    font-size: 95%;
+    margin: 0;
+}
+.sizeParaBlocTextMarseille
+{
+    font-size: 85%;
+    margin: 0;
+}
+.star ul
+{
+    display: flex;
+    flex-direction: row;
+    font-size: 73%;
+}
+.colorStarBlue
+{
+    color: #0065fc;
+}
+.colorStarGrey
+{
+    color: #e2e2e2;
+}
+
+/**************Most Popular***********/
+
+#blocMostPopular
+{   
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    width: 25.5%;
+    padding: 20px 40px;
+    
+}
+#blocInternMostPopular
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.titlePopularWithIcon
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.growUpIconMostPopular
+{
+    transform: scale(1.40);
+}
+.blocAccommodationMostPopular
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 20px;
+    height: 134px;
+    width :97%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
+    padding: 5px 5px;
+}
+.blocAccommodationMostPopular:hover
+{
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: ease 0.4s;
+}
+
+.blocImgMostPopular
+{
+    width: 40%;
+    height: 100%;
+}
+.blocImgMostPopular img
+{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.blocTextMostPopular
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 52%;
+    height: 85%;
+    padding: 10px 10px;
+    
+}
+.sizeTitleBlocTextMostPopular
+{
+    font-size: 100%;
+    margin : 0px 0px -30px 0px;
+}
+.sizeParaBlocTextMostPopular
+{
+    font-size: 90%;
+}
+
+/****************Activity**************/
+#activity
+{
+    margin-top: -20px;
+}
+#conteneurActivity
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    width: 100%;
+  
+}
+.blocActivitySingle
+{
+    height :445px;
+    width: 22.6%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
+}
+.blocActivitySingle:hover
+{
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: ease 0.4s;
+}
+.blocActivityDouble
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height :445px;
+    width: 22.6%; 
+}
+#blocDoublePart1
+{
+    height :238px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
+    
+}
+#blocDoublePart2
+{
+    height :164px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
+}
+#blocDoublePart3
+{
+    height :195px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
+}
+#blocDoublePart4
+{
+    height :210px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
+}
+#blocDoublePart1:hover
+{
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: ease 0.4s;
+}
+#blocDoublePart2:hover
+{
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: ease 0.4s;
+}
+#blocDoublePart3:hover
+{
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: ease 0.4s;
+}
+#blocDoublePart4:hover
+{
+    cursor: pointer;
+    transform: scale(1.04);
+    transition: ease 0.4s;
+}
+.blocTextAct
+{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    
+}
+.blocImgAct
+{
+    height: calc(100% - 55px);
+}
+.marginTextAct
+{
+    margin : 0px 0px 0px 15px;
+    font-size: 110%;
+}
+.blocImgAct img
+{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/**************Footer**************/
+#footer
+{
+    width: 100%;
+    background-color: #f2f2f2;
+    position: absolute; 
+    bottom: 0;
+}
+#blocFooter
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: auto;
+    padding: 0 2%;
+    
+}
+.blocsInFooter
+{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 2% 2%;
+    
+}
+.blocsInFooter h3
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 105%;
+}
+.blocsInFooter p
+{
+    margin-bottom: 0;
+    font-size: 90%;
+}
+.blocsInFooter a:hover
+{
+    text-decoration-line: underline;
+}
+.marginBlocAssistance
+{
+    margin-right: 143px;
+}
+
+/*******Media queries - de 768px (smartphone) ********/
+
+@media screen and (max-width: 767px)
+{
+    main
+    {
+        padding: 0;
+    }
+   
+    /*******Header******/
+
+    header
+    {
+        padding: 0;
+        padding-bottom: 20px;
+    }
+    .blocLogo
+    {
+        width: 100%;
+        height: 80px;
+    }
+    .logo
+    {
+        margin-left: 20px;
+    }
+    nav
+    {
+        height: 60px;
+        width: 100%;
+        
+    }
+    nav a
+    {
+        height: 59px;
+        width: 50%;
+    }
+    .navEffectBase
+    {
+    border-top: none;
+    border-bottom: 3px #0065fc solid;
+    }
+    .navEffect
+    {
+    border-top: none;
+    border-bottom: 3px #f2f2f2 solid;
+    }
+    .navEffect:hover
+    {
+    border-top: none;
+    border-bottom: 3px #0065fc solid;
+    color: #0065fc;
+    }
+
+    /*******Search******/
+
+    #research
+    {
+        padding: 0 3.5%;
+    }
+
+    #searchBar
+    {
+    width: 98%;
+    margin: auto;
+    margin-top: 30px;
+    
+    }
+    #searchIcon
+    {
+    width: 16%;    
+    }
+    #searchBar input
+    {
+    width: 68%;
+    }
+    #buttonIconSearch
+    {
+    width: 16%;
+    }
+    #buttonIconSearch i
+    {
+    font-size: 120%;
+    }
+    #buttonWithoutIcon
+    {
+    display: none;
+    }
+
+    /******filters*****/
+    .filters
+    {
+        margin-top: 30px;
+    }
+    .filters ul li 
+    {   
+         margin: 15px 5px 0px 0px;
+    }
+ 
+    /*******Info******/
+ 
+    #info
+    {
+         margin-top: 30px;
+    }
+
+    /******accommodation*****/
+    #blocMostPopular
+    {   
+        border-radius: 0px;
+        padding: 20px 0;
+        width : 100%;
+    }
+    .titlePopularWithIcon
+    {
+        width: 90%;
+        margin: auto;
+    }
+    #blocInternMostPopular
+    {
+        width : 90%;
+        margin: auto;
+    }
+    .blocAccommodationMostPopular
+    {
+        width: 97%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #blocMarseille
+    {
+        background-color: white;
+        border-radius: 0;
+        width: 100%;
+        padding: 20px 0;
+    }
+    .titleAccommodationMarseille
+    {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    #blocInternMarseille
+    {
+        width: 90%;
+        margin: auto;
+    }
+    .blocAccommodationMarseille
+    {  
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 97%;
+    }
+    .showMore h3
+    {
+       margin-left: 5%; 
+    }
+
+    /******activity********/
+    #activity
+    {
+        margin-top: -50px;
+    }
+    .titleActivity
+    {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    #conteneurActivity
+    {
+    flex-direction: column;
+    }
+    .blocActivitySingle
+    {
+    width: 90%;
+    height: 190px;
+    margin:auto;
+    margin-bottom: 7px;
+    
+    }
+    .blocActivityDouble
+    {
+        width: 90%;
+        height: 400px;
+        margin:auto;
+        margin-bottom: 7px;
+     
+    }
+    #blocDoublePart1
+    {
+        width: 100%;
+        height: 190px;
+        margin:auto;
+        
+    
+    }
+    #blocDoublePart2
+    {
+        width: 100%;
+        height: 190px;
+        margin:auto;
+        
+    }
+    #blocDoublePart3
+    {
+        width: 100%;
+        height: 190px;
+        margin:auto;
+        
+    }
+    #blocDoublePart4
+    {
+        width: 100%;
+        height: 190px;
+        margin:auto;
+       
+    }
+    /*******Footer********/
+
+    #blocFooter
+    {
+    flex-direction: column;  
+    align-items: flex-start;
+    padding: 0;
+    }
+    .blocsInFooter
+    {
+    width: 60%;
+    padding: 30px 0 15px 15px;
+    }
+ 
+}
+
+/***********Media queries entre 600 et 768 (large phone) *************/
+@media screen and (min-width: 600px) and (max-width: 767px)
+{
+   
+    #blocFooter
+    {
+    flex-direction: row;
+    padding: 0;
+    } 
+    .blocsInFooter
+    {
+    width: 40%;
+    }
+    .marginBlocAssistance
+    {
+    margin-right: 50px;
+    }
+}
+/***********Media queries -600 (ajustement footer) *************/
+@media screen and (max-width: 600px)
+{
+    main
+    {
+        padding-bottom: 220px;
+    }
+}
+
+
+/*******Media queries entre 768px et 992 px (tablette) ********/
+@media screen and (min-width: 768px) and (max-width : 991px)
+{
+    head
+    {
+        padding: 0 2%;
+    }
+    main
+    {
+        padding: 0 2%;
+    }
+  
+    /*******Search******/
+
+    #buttonIconSearch
+    {
+    display: none;
+    }
+
+    /******filters*****/
+    .titleFilters{
+        padding-right: 10px;
+    }
+
+    .filters ul li 
+    {   
+        margin: 20px 30px 0px 0px;
+    }
+
+    /*******Info******/
+
+    #info
+    {
+        margin-top: 30px;
+    }
+    /*****Accommodation*****/
+    
+  
+    #blocMostPopular
+    {   
+        border-radius: 30px;
+        padding: 20px 0;
+        width : 100%;
+    }
+    .titlePopularWithIcon
+    {
+        width: 90%;
+        margin: auto;
+    }
+    #blocInternMostPopular
+    {
+        width : 90%;
+        margin: auto;
+    }
+    .blocAccommodationMostPopular
+    {
+        width: 97%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #blocMarseille
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .blocAccommodationMarseille
+    {
+        width: 45%;
+    }
+
+    /******footer*****/
+
+    .blocsInFooter
+    {
+    width: 30%;
+    padding: 30px 0;
+    margin-right: 15px;
+    
+    }
+}
+
+
+/*******Media queries + de 992px (pc + large ipad) ********/
+
+@media screen and (min-width: 992px) and (max-width: 1439px)
+{
+    head
+    {
+        padding: 0 2%;
+    }
+    main
+    {
+        padding: 0 2%;
+    }
+    /*******Search******/
+
+    #buttonIconSearch
+    {
+    display: none;
+    }
+
+    /*******Info******/
+
+    #info
+    {
+        margin-top: 30px;
+    }
+    /*****Accommodation*****/
+    #blocMostPopular
+    {   
+        width : 100%;
+        padding: 20px 5px;
+        
+    }
+    .titlePopularWithIcon
+    {
+        width: 95%;
+        margin: auto;
+    }
+
+    #blocInternMostPopular
+    {
+        flex-direction: row;
+        width: 95%;
+        margin: auto;
+    
+    }
+    .blocAccommodationMostPopular
+    {
+        width: 31%;
+    }
+    .blocImgMostPopular
+    {
+        width: 35%;
+    }
+    .blocTextMostPopular
+    {
+        width: 70%;
+        padding-right: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 100%;
+    }
+
+    #blocMarseille
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .blocAccommodationMarseille
+    {
+        width: 30%;
+    } 
+}
+
+/*******Media queries + de 1440px (pc) ********/
+@media screen and (min-width: 1440px)
+{
+    /*******Search******/
+    #buttonIconSearch
+    {
+    display: none;
+    }
+    #blocFooter
+    {
+        padding: 0 15%;
+    }
+}
+
+
